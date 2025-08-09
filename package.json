@@ -1,0 +1,22 @@
+{
+  "name": "seleniumtesting",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 30000 --reporter mochawesome-screenshots",
+      "test:registro": "mocha test/registroTest.js --timeout 30000 --reporter mochawesome-screenshots",
+      "test:crear": "mocha test/crearTest.js --timeout 30000 --reporter mochawesome-screenshots",
+      "test:actualizar": "mocha test/actualizarTest.js --timeout 30000 --reporter mochawesome-screenshots",
+      "test:eliminar": "mocha test/eliminarTest.js --timeout 30000 --reporter mochawesome-screenshots"
+    },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "chai": "^5.2.1",
+    "mocha": "^11.7.1",
+    "mochawesome": "^7.1.3",
+    "mochawesome-screenshots": "^1.7.3",
+    "selenium-webdriver": "^4.34.0"
+  }
+}

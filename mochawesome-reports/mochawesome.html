@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mochawesome Report Card</title>
+    
+    <link rel="stylesheet" href="css/mochawesome.css">
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="report-info-cnt">
+          <h1 class="report-title">SeleniumTesting</h1>
+          <h3 class="report-date">Friday, August 8 2025, 10:25pm</h3>
+        </div>
+        <div class="nav-right">
+          <div class="quick-summary-cnt">
+              <ul class="list-unstyled quick-summary">
+                <li class="qs-item summary-duration" title="Duration">11.271<span>S</span></li>
+                <li class="qs-item summary-suites" title="Suites">2</li>
+                <li class="qs-item summary-tests" title="Tests">6</li>
+                <li class="qs-item summary-passes" title="Passed" data-filter="passed">0</li>
+                <li class="qs-item summary-failures" title="Failed" data-filter="failed">6</li>
+                <li class="qs-item summary-pending" title="Pending" data-filter="pending">0</li>
+              </ul>          </div>
+          <button class="nav-menu-btn open-menu"><i class="icon-menu"></i></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Report Summary -->
+    <div class="summary">
+      <div class="container">
+          <div class="row">
+            <div class="summary-col summary-duration">
+              <h1 class="summary-count">11.271<span>S</span></h1>
+              <h4 class="summary-label">S</h4>
+            </div>
+            <div class="summary-col summary-suites" title="Suites">
+              <h1 class="summary-count">2</h1>
+              <h4 class="summary-label">Suites</h4>
+            </div>
+            <div class="summary-col summary-tests" title="Tests">
+              <h1 class="summary-count">6</h1>
+              <h4 class="summary-label">Tests</h4>
+            </div>
+            <div class="summary-col summary-passes" data-filter="passed" title="Passed">
+              <h1 class="summary-count">0</h1>
+              <h4 class="summary-label">Passed</h4>
+            </div>
+            <div class="summary-col summary-failures" data-filter="failed" title="Failed">
+              <h1 class="summary-count">6</h1>
+              <h4 class="summary-label">Failed</h4>
+            </div>
+            <div class="summary-col summary-pending" data-filter="pending" title="Pending">
+              <h1 class="summary-count">0</h1>
+              <h4 class="summary-label">Pending</h4>
+            </div>
+          </div>      </div>
+    </div>
+    <div class="statusbar">
+      <div class="container">
+          <div class="row">
+            <div class="status-item status-item-pending-pct">0% Pending</div>
+            <div class="status-item status-item-passing-pct danger">0% Passing</div>
+          </div>      </div>
+    </div>
+
+    <!-- Suites -->
+    <div class="details container">
+            <section class="suite-wrap">
+          <div id="b2b8ca38-7465-49be-8683-e87e030546e3" class="suite has-tests has-failed">
+            <h3 class="suite-title">Prueba de Login</h3>
+            <h5 class="suite-filename">\test\loginTest.js</h5>
+            <!-- Suite Chart -->
+            <div class="suite-chart-wrap">
+              <canvas id="b2b8ca38-7465-49be-8683-e87e030546e3" class="suite-chart" width="50" height="50" data-total-passes="0" data-total-failures="1" data-total-pending="0" data-total-skipped="0"></canvas>
+            </div>
+            <div class="suite-data-wrap">
+              <!-- Suite Summary -->
+              <ul class="suite-summary list-unstyled">
+                <li class="suite-summary-item duration">6.890 s</li>
+                <li class="suite-summary-item tests">1</li>
+                <li class="suite-summary-item passed">0</li>
+                <li class="suite-summary-item failed">1</li>
+                <li class="suite-summary-item pending">0</li>
+              </ul>
+              <!-- Test Info -->
+              <div class="suite-test-wrap">
+                <div class="suite-test-header" data-toggle="collapse" data-target="#b2b8ca38-7465-49be-8683-e87e030546e3-test-list">
+                  <h4 class="suite-test-header-title">Tests</h4>
+                </div>
+                <div id="b2b8ca38-7465-49be-8683-e87e030546e3-test-list" class="list-group test-list collapse in">
+                    <div id="a7f8769a-6514-47f0-8ffd-a7ebd16834fd" class="list-group-item test failed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              Login exitoso con usuario válido y captura de pantalla
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#a7f8769a-6514-47f0-8ffd-a7ebd16834fd > .test-logr.collapse">Log </button>
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#a7f8769a-6514-47f0-8ffd-a7ebd16834fd > .test-code.collapse">Code </button>
+              <span class="test-duration ">6.890 s</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+            <p class="test-error-message">NoSuchSessionError: invalid session id: session deleted as the browser has closed the connection
+        from disconnected: not connected to DevTools
+          (Session info: chrome=138.0.7204.184)
+              <button class="btn btn-link btn-sm toggle-btn toggle-stack collapsed" data-toggle="collapse" data-target="#a7f8769a-6514-47f0-8ffd-a7ebd16834fd > .test-error-stack.collapse">Stack </button><button class="btn btn-link btn-sm toggle-btn toggle-stack collapsed" data-toggle="collapse" data-target="#a7f8769a-6514-47f0-8ffd-a7ebd16834fd > .test-error-scr.collapse">Screenshot </button>
+            </p>
+        <br>  <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">async</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{<br>    <span class="hljs-keyword">await</span> driver.get(<span class="hljs-string">"http://localhost:8000/signin/"</span>);<br>    <span class="hljs-keyword">await</span> driver.wait(until.elementLocated(By.id(<span class="hljs-string">"username"</span>)), <span class="hljs-number">5000</span>);<br>    <span class="hljs-keyword">await</span> driver.findElement(By.id(<span class="hljs-string">"username"</span>)).sendKeys(<span class="hljs-string">"usuarioPrueba"</span>);<br>    <span class="hljs-keyword">await</span> driver.findElement(By.id(<span class="hljs-string">"password"</span>)).sendKeys(<span class="hljs-string">"contraseña123"</span>);<br>    <span class="hljs-keyword">await</span> driver.findElement(By.css(<span class="hljs-string">'form button[type="submit"]'</span>)).click();<br>    <span class="hljs-keyword">await</span> driver.wait(until.urlContains(<span class="hljs-string">"/tasks"</span>), <span class="hljs-number">10000</span>);<br>    <span class="hljs-keyword">const</span> screenshot = <span class="hljs-keyword">await</span> driver.takeScreenshot();<br>    <span class="hljs-keyword">const</span> screenshotPath = path.join(__dirname, <span class="hljs-string">"../screenshots/login-success.png"</span>);<br>    fs.writeFileSync(screenshotPath, screenshot, <span class="hljs-string">"base64"</span>);<br>    <span class="hljs-keyword">const</span> currentUrl = <span class="hljs-keyword">await</span> driver.getCurrentUrl();<br>    expect(currentUrl).to.include(<span class="hljs-string">"/tasks"</span>);</code></pre>
+          </div>
+          <div class="test-error-stack collapse">
+            <pre><code class="hljs small">Difference between Expected(+) and Actual(-):
+        invalid session id: session deleted as the browser has closed the connection
+        from disconnected: not connected to DevTools
+          (Session info: chrome=138.0.7204.184)
+        
+        Expected:
+        undefined
+        
+        Actual:
+        undefined
+        
+        Stack:
+        NoSuchSessionError: invalid session id: session deleted <span class="hljs-keyword">as</span> the browser has closed the connection<br>from disconnected: not connected to DevTools<br>  (Session info: chrome=<span class="hljs-number">138.0</span><span class="hljs-number">.7204</span><span class="hljs-number">.184</span>)<br>    at <span class="hljs-built_in">Object</span>.throwDecodedError (node_modules\selenium-webdriver\lib\error.js:<span class="hljs-number">523</span>:<span class="hljs-number">15</span>)<br>    at parseHttpResponse (node_modules\selenium-webdriver\lib\http.js:<span class="hljs-number">524</span>:<span class="hljs-number">13</span>)<br>    at Executor.execute (node_modules\selenium-webdriver\lib\http.js:<span class="hljs-number">456</span>:<span class="hljs-number">28</span>)<br>    at process.processTicksAndRejections (node:internal/process/task_queues:<span class="hljs-number">105</span>:<span class="hljs-number">5</span>)<br>    at <span class="hljs-keyword">async</span> Driver.execute (node_modules\selenium-webdriver\lib\webdriver.js:<span class="hljs-number">745</span>:<span class="hljs-number">17</span>)</code></pre>
+          </div>
+          <div class="test-error-scr collapse">
+            <pre><code class="hljs small"><img src="./screenshots/1754706325770_prueba_de_login_login_exitoso_con_usuario_v_lido_y_captura_de_pantalla.png"></code></pre>
+          </div>
+        </div>        </div>
+              </div>
+            </div>
+        
+        
+          </div>
+        </section>
+            <section class="suite-wrap">
+          <div id="3fd5eef7-a5fa-421a-8638-293263f25fd7" class="suite has-tests has-failed">
+            <h3 class="suite-title">Prueba de Registro de Usuario - Historia de Usuario</h3>
+            <h5 class="suite-filename">\test\registroTest.js</h5>
+            <!-- Suite Chart -->
+            <div class="suite-chart-wrap">
+              <canvas id="3fd5eef7-a5fa-421a-8638-293263f25fd7" class="suite-chart" width="50" height="50" data-total-passes="0" data-total-failures="5" data-total-pending="0" data-total-skipped="0"></canvas>
+            </div>
+            <div class="suite-data-wrap">
+              <!-- Suite Summary -->
+              <ul class="suite-summary list-unstyled">
+                <li class="suite-summary-item duration">2.634 s</li>
+                <li class="suite-summary-item tests">5</li>
+                <li class="suite-summary-item passed">0</li>
+                <li class="suite-summary-item failed">5</li>
+                <li class="suite-summary-item pending">0</li>
+              </ul>
+              <!-- Test Info -->
+              <div class="suite-test-wrap">
+                <div class="suite-test-header" data-toggle="collapse" data-target="#3fd5eef7-a5fa-421a-8638-293263f25fd7-test-list">
+                  <h4 class="suite-test-header-title">Tests</h4>
+                </div>
+                <div id="3fd5eef7-a5fa-421a-8638-293263f25fd7-test-list" class="list-group test-list collapse in">
+                    <div id="a4a2e95b-4807-4dfa-a5d7-ec8c0f78bf76" class="list-group-item test failed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              Formulario tiene usuario, correo y contraseña
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#a4a2e95b-4807-4dfa-a5d7-ec8c0f78bf76 > .test-logr.collapse">Log </button>
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#a4a2e95b-4807-4dfa-a5d7-ec8c0f78bf76 > .test-code.collapse">Code </button>
+              <span class="test-duration ">1.244 s</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+            <p class="test-error-message">NoSuchElementError: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[id=&quot;email&quot;]&quot;}
+          (Session info: chrome=138.0.7204.184)
+              <button class="btn btn-link btn-sm toggle-btn toggle-stack collapsed" data-toggle="collapse" data-target="#a4a2e95b-4807-4dfa-a5d7-ec8c0f78bf76 > .test-error-stack.collapse">Stack </button><button class="btn btn-link btn-sm toggle-btn toggle-stack collapsed" data-toggle="collapse" data-target="#a4a2e95b-4807-4dfa-a5d7-ec8c0f78bf76 > .test-error-scr.collapse">Screenshot </button>
+            </p>
+        <br>  <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">async</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{<br>    <span class="hljs-keyword">await</span> driver.get(<span class="hljs-string">"http://localhost:8000/signup/"</span>);<br>    <span class="hljs-keyword">const</span> username = <span class="hljs-keyword">await</span> driver.findElement(By.id(<span class="hljs-string">"username"</span>));<br>    <span class="hljs-keyword">const</span> email = <span class="hljs-keyword">await</span> driver.findElement(By.id(<span class="hljs-string">"email"</span>));<br>    <span class="hljs-keyword">const</span> password1 = <span class="hljs-keyword">await</span> driver.findElement(By.id(<span class="hljs-string">"password1"</span>));<br>    <span class="hljs-keyword">const</span> password2 = <span class="hljs-keyword">await</span> driver.findElement(By.id(<span class="hljs-string">"password2"</span>));<br>    expect(username).to.exist;<br>    expect(email).to.exist;<br>    expect(password1).to.exist;<br>    expect(password2).to.exist;</code></pre>
+          </div>
+          <div class="test-error-stack collapse">
+            <pre><code class="hljs small">Difference between Expected(+) and Actual(-):
+        no such element: Unable to locate element: {"method":"css selector","selector":"*[id="email"]"}
+          (Session info: chrome=138.0.7204.184)
+        
+        Expected:
+        undefined
+        
+        Actual:
+        undefined
+        
+        Stack:
+        NoSuchElementError: no such element: Unable to locate element: {<span class="hljs-string">"method"</span>:<span class="hljs-string">"css selector"</span>,<span class="hljs-string">"selector"</span>:<span class="hljs-string">"*[id="</span>email<span class="hljs-string">"]"</span>}<br>  (Session info: chrome=<span class="hljs-number">138.0</span><span class="hljs-number">.7204</span><span class="hljs-number">.184</span>)<br>    at <span class="hljs-built_in">Object</span>.throwDecodedError (node_modules\selenium-webdriver\lib\error.js:<span class="hljs-number">523</span>:<span class="hljs-number">15</span>)<br>    at parseHttpResponse (node_modules\selenium-webdriver\lib\http.js:<span class="hljs-number">524</span>:<span class="hljs-number">13</span>)<br>    at Executor.execute (node_modules\selenium-webdriver\lib\http.js:<span class="hljs-number">456</span>:<span class="hljs-number">28</span>)<br>    at process.processTicksAndRejections (node:internal/process/task_queues:<span class="hljs-number">105</span>:<span class="hljs-number">5</span>)<br>    at <span class="hljs-keyword">async</span> Driver.execute (node_modules\selenium-webdriver\lib\webdriver.js:<span class="hljs-number">745</span>:<span class="hljs-number">17</span>)<br>    at <span class="hljs-keyword">async</span> Context.&lt;anonymous&gt; (test\registroTest.js:<span class="hljs-number">73</span>:<span class="hljs-number">19</span>)</code></pre>
+          </div>
+          <div class="test-error-scr collapse">
+            <pre><code class="hljs small"><img src="./screenshots/1754706333537_prueba_de_registro_de_usuario_-_historia_de_usuario_formulario_tiene_usuario_correo_y_contrase_a.png"></code></pre>
+          </div>
+        </div>            <div id="2810f4f9-26ac-4d0d-939b-8bd71b23e124" class="list-group-item test failed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              No permite enviar formulario con campos vacíos
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#2810f4f9-26ac-4d0d-939b-8bd71b23e124 > .test-logr.collapse">Log </button>
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#2810f4f9-26ac-4d0d-939b-8bd71b23e124 > .test-code.collapse">Code </button>
+              <span class="test-duration ">1.105 s</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+            <p class="test-error-message">ElementClickInterceptedError: element click intercepted: Element is not clickable at point (635, 759)
+          (Session info: chrome=138.0.7204.184)
+              <button class="btn btn-link btn-sm toggle-btn toggle-stack collapsed" data-toggle="collapse" data-target="#2810f4f9-26ac-4d0d-939b-8bd71b23e124 > .test-error-stack.collapse">Stack </button><button class="btn btn-link btn-sm toggle-btn toggle-stack collapsed" data-toggle="collapse" data-target="#2810f4f9-26ac-4d0d-939b-8bd71b23e124 > .test-error-scr.collapse">Screenshot </button>
+            </p>
+        <br>  <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">async</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{<br>    <span class="hljs-keyword">await</span> driver.get(<span class="hljs-string">"http://localhost:8000/signup/"</span>);<br>    <span class="hljs-keyword">await</span> driver.findElement(By.css(<span class="hljs-string">'form button[type="submit"]'</span>)).click();<br>    <span class="hljs-comment">// Esperar que aparezcan mensajes de validación o error</span><br>    <span class="hljs-comment">// Ajusta el selector según tu app, puede ser ".error" o ".invalid-feedback"</span><br>    <span class="hljs-keyword">const</span> errors = <span class="hljs-keyword">await</span> driver.findElements(By.css(<span class="hljs-string">".error, .invalid-feedback, .alert-danger"</span>));<br>    expect(errors.length).to.be.greaterThan(<span class="hljs-number">0</span>);</code></pre>
+          </div>
+          <div class="test-error-stack collapse">
+            <pre><code class="hljs small">Difference between Expected(+) and Actual(-):
+        element click intercepted: Element is not clickable at point (635, 759)
+          (Session info: chrome=138.0.7204.184)
+        
+        Expected:
+        undefined
+        
+        Actual:
+        undefined
+        
+        Stack:
+        ElementClickInterceptedError: element click intercepted: Element is not clickable at point (<span class="hljs-number">635</span>, <span class="hljs-number">759</span>)<br>  (Session info: chrome=<span class="hljs-number">138.0</span><span class="hljs-number">.7204</span><span class="hljs-number">.184</span>)<br>    at <span class="hljs-built_in">Object</span>.throwDecodedError (node_modules\selenium-webdriver\lib\error.js:<span class="hljs-number">523</span>:<span class="hljs-number">15</span>)<br>    at parseHttpResponse (node_modules\selenium-webdriver\lib\http.js:<span class="hljs-number">524</span>:<span class="hljs-number">13</span>)<br>    at Executor.execute (node_modules\selenium-webdriver\lib\http.js:<span class="hljs-number">456</span>:<span class="hljs-number">28</span>)<br>    at process.processTicksAndRejections (node:internal/process/task_queues:<span class="hljs-number">105</span>:<span class="hljs-number">5</span>)<br>    at <span class="hljs-keyword">async</span> Driver.execute (node_modules\selenium-webdriver\lib\webdriver.js:<span class="hljs-number">745</span>:<span class="hljs-number">17</span>)<br>    at <span class="hljs-keyword">async</span> Context.&lt;anonymous&gt; (test\registroTest.js:<span class="hljs-number">86</span>:<span class="hljs-number">5</span>)</code></pre>
+          </div>
+          <div class="test-error-scr collapse">
+            <pre><code class="hljs small"><img src="./screenshots/1754706334783_prueba_de_registro_de_usuario_-_historia_de_usuario_no_permite_enviar_formulario_con_campos_vac_os.png"></code></pre>
+          </div>
+        </div>            <div id="740697fa-07a3-40cc-8e51-6bba4a30d8ae" class="list-group-item test failed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              No permite contraseña menor a 6 caracteres
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#740697fa-07a3-40cc-8e51-6bba4a30d8ae > .test-logr.collapse">Log </button>
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#740697fa-07a3-40cc-8e51-6bba4a30d8ae > .test-code.collapse">Code </button>
+              <span class="test-duration ">104 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+            <p class="test-error-message">NoSuchElementError: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[id=&quot;email&quot;]&quot;}
+          (Session info: chrome=138.0.7204.184)
+              <button class="btn btn-link btn-sm toggle-btn toggle-stack collapsed" data-toggle="collapse" data-target="#740697fa-07a3-40cc-8e51-6bba4a30d8ae > .test-error-stack.collapse">Stack </button><button class="btn btn-link btn-sm toggle-btn toggle-stack collapsed" data-toggle="collapse" data-target="#740697fa-07a3-40cc-8e51-6bba4a30d8ae > .test-error-scr.collapse">Screenshot </button>
+            </p>
+        <br>  <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">async</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{<br>    <span class="hljs-keyword">await</span> driver.get(<span class="hljs-string">"http://localhost:8000/signup/"</span>);<br>    <span class="hljs-keyword">await</span> driver.findElement(By.id(<span class="hljs-string">"username"</span>)).sendKeys(<span class="hljs-string">"usuarioTest"</span>);<br>    <span class="hljs-keyword">await</span> driver.findElement(By.id(<span class="hljs-string">"email"</span>)).sendKeys(<span class="hljs-string">"usuarioTest@mail.com"</span>);<br>    <span class="hljs-keyword">await</span> driver.findElement(By.id(<span class="hljs-string">"password1"</span>)).sendKeys(<span class="hljs-string">"123"</span>);<br>    <span class="hljs-keyword">await</span> driver.findElement(By.id(<span class="hljs-string">"password2"</span>)).sendKeys(<span class="hljs-string">"123"</span>);<br>    <span class="hljs-keyword">await</span> driver.findElement(By.css(<span class="hljs-string">'form button[type="submit"]'</span>)).click();<br>    <span class="hljs-comment">// Verificar mensaje de error para contraseña corta</span><br>    <span class="hljs-keyword">const</span> error = <span class="hljs-keyword">await</span> driver.wait(until.elementLocated(By.css(<span class="hljs-string">".error, .invalid-feedback, .alert-danger"</span>)), <span class="hljs-number">5000</span>);<br>    <span class="hljs-keyword">const</span> text = <span class="hljs-keyword">await</span> error.getText();<br>    expect(text.toLowerCase()).to.include(<span class="hljs-string">"6 caracteres"</span>);</code></pre>
+          </div>
+          <div class="test-error-stack collapse">
+            <pre><code class="hljs small">Difference between Expected(+) and Actual(-):
+        no such element: Unable to locate element: {"method":"css selector","selector":"*[id="email"]"}
+          (Session info: chrome=138.0.7204.184)
+        
+        Expected:
+        undefined
+        
+        Actual:
+        undefined
+        
+        Stack:
+        NoSuchElementError: no such element: Unable to locate element: {<span class="hljs-string">"method"</span>:<span class="hljs-string">"css selector"</span>,<span class="hljs-string">"selector"</span>:<span class="hljs-string">"*[id="</span>email<span class="hljs-string">"]"</span>}<br>  (Session info: chrome=<span class="hljs-number">138.0</span><span class="hljs-number">.7204</span><span class="hljs-number">.184</span>)<br>    at <span class="hljs-built_in">Object</span>.throwDecodedError (node_modules\selenium-webdriver\lib\error.js:<span class="hljs-number">523</span>:<span class="hljs-number">15</span>)<br>    at parseHttpResponse (node_modules\selenium-webdriver\lib\http.js:<span class="hljs-number">524</span>:<span class="hljs-number">13</span>)<br>    at Executor.execute (node_modules\selenium-webdriver\lib\http.js:<span class="hljs-number">456</span>:<span class="hljs-number">28</span>)<br>    at process.processTicksAndRejections (node:internal/process/task_queues:<span class="hljs-number">105</span>:<span class="hljs-number">5</span>)<br>    at <span class="hljs-keyword">async</span> Driver.execute (node_modules\selenium-webdriver\lib\webdriver.js:<span class="hljs-number">745</span>:<span class="hljs-number">17</span>)<br>    at <span class="hljs-keyword">async</span> toWireValue (node_modules\selenium-webdriver\lib\webdriver.js:<span class="hljs-number">149</span>:<span class="hljs-number">15</span>)<br>    at <span class="hljs-keyword">async</span> C:\Users\Dell Power\Downloads\SeleniumTesting\node_modules\selenium-webdriver\lib\webdriver.js:<span class="hljs-number">195</span>:<span class="hljs-number">16</span><br>    at <span class="hljs-keyword">async</span> forEachKey (node_modules\selenium-webdriver\lib\webdriver.js:<span class="hljs-number">189</span>:<span class="hljs-number">9</span>)<br>    at <span class="hljs-keyword">async</span> convertKeys (node_modules\selenium-webdriver\lib\webdriver.js:<span class="hljs-number">194</span>:<span class="hljs-number">3</span>)<br>    at <span class="hljs-keyword">async</span> Driver.execute (node_modules\selenium-webdriver\lib\webdriver.js:<span class="hljs-number">743</span>:<span class="hljs-number">22</span>)<br>    at <span class="hljs-keyword">async</span> Context.&lt;anonymous&gt; (test\registroTest.js:<span class="hljs-number">98</span>:<span class="hljs-number">5</span>)</code></pre>
+          </div>
+          <div class="test-error-scr collapse">
+            <pre><code class="hljs small"><img src="./screenshots/1754706335888_prueba_de_registro_de_usuario_-_historia_de_usuario_no_permite_contrase_a_menor_a_6_caracteres.png"></code></pre>
+          </div>
+        </div>            <div id="aacb1d5d-44be-47e4-94d8-eb1fa910a10d" class="list-group-item test failed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              Registro exitoso con datos válidos
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#aacb1d5d-44be-47e4-94d8-eb1fa910a10d > .test-logr.collapse">Log </button>
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#aacb1d5d-44be-47e4-94d8-eb1fa910a10d > .test-code.collapse">Code </button>
+              <span class="test-duration ">89 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+            <p class="test-error-message">NoSuchElementError: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[id=&quot;email&quot;]&quot;}
+          (Session info: chrome=138.0.7204.184)
+              <button class="btn btn-link btn-sm toggle-btn toggle-stack collapsed" data-toggle="collapse" data-target="#aacb1d5d-44be-47e4-94d8-eb1fa910a10d > .test-error-stack.collapse">Stack </button><button class="btn btn-link btn-sm toggle-btn toggle-stack collapsed" data-toggle="collapse" data-target="#aacb1d5d-44be-47e4-94d8-eb1fa910a10d > .test-error-scr.collapse">Screenshot </button>
+            </p>
+        <br>  <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">async</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{<br>    <span class="hljs-keyword">const</span> user = generateUniqueUser();<br>    <span class="hljs-keyword">await</span> driver.get(<span class="hljs-string">"http://localhost:8000/signup/"</span>);<br>    <span class="hljs-keyword">await</span> driver.findElement(By.id(<span class="hljs-string">"username"</span>)).sendKeys(user.username);<br>    <span class="hljs-keyword">await</span> driver.findElement(By.id(<span class="hljs-string">"email"</span>)).sendKeys(user.email);<br>    <span class="hljs-keyword">await</span> driver.findElement(By.id(<span class="hljs-string">"password1"</span>)).sendKeys(user.password);<br>    <span class="hljs-keyword">await</span> driver.findElement(By.id(<span class="hljs-string">"password2"</span>)).sendKeys(user.password);<br>    <span class="hljs-keyword">await</span> driver.findElement(By.css(<span class="hljs-string">'form button[type="submit"]'</span>)).click();<br>    <span class="hljs-comment">// Esperar redirección o mensaje de éxito (ajustar según tu app)</span><br>    <span class="hljs-keyword">await</span> driver.wait(until.urlContains(<span class="hljs-string">"/signin"</span>), <span class="hljs-number">10000</span>);<br>    <span class="hljs-keyword">const</span> currentUrl = <span class="hljs-keyword">await</span> driver.getCurrentUrl();<br>    expect(currentUrl).to.include(<span class="hljs-string">"/signin"</span>);</code></pre>
+          </div>
+          <div class="test-error-stack collapse">
+            <pre><code class="hljs small">Difference between Expected(+) and Actual(-):
+        no such element: Unable to locate element: {"method":"css selector","selector":"*[id="email"]"}
+          (Session info: chrome=138.0.7204.184)
+        
+        Expected:
+        undefined
+        
+        Actual:
+        undefined
+        
+        Stack:
+        NoSuchElementError: no such element: Unable to locate element: {<span class="hljs-string">"method"</span>:<span class="hljs-string">"css selector"</span>,<span class="hljs-string">"selector"</span>:<span class="hljs-string">"*[id="</span>email<span class="hljs-string">"]"</span>}<br>  (Session info: chrome=<span class="hljs-number">138.0</span><span class="hljs-number">.7204</span><span class="hljs-number">.184</span>)<br>    at <span class="hljs-built_in">Object</span>.throwDecodedError (node_modules\selenium-webdriver\lib\error.js:<span class="hljs-number">523</span>:<span class="hljs-number">15</span>)<br>    at parseHttpResponse (node_modules\selenium-webdriver\lib\http.js:<span class="hljs-number">524</span>:<span class="hljs-number">13</span>)<br>    at Executor.execute (node_modules\selenium-webdriver\lib\http.js:<span class="hljs-number">456</span>:<span class="hljs-number">28</span>)<br>    at process.processTicksAndRejections (node:internal/process/task_queues:<span class="hljs-number">105</span>:<span class="hljs-number">5</span>)<br>    at <span class="hljs-keyword">async</span> Driver.execute (node_modules\selenium-webdriver\lib\webdriver.js:<span class="hljs-number">745</span>:<span class="hljs-number">17</span>)<br>    at <span class="hljs-keyword">async</span> toWireValue (node_modules\selenium-webdriver\lib\webdriver.js:<span class="hljs-number">149</span>:<span class="hljs-number">15</span>)<br>    at <span class="hljs-keyword">async</span> C:\Users\Dell Power\Downloads\SeleniumTesting\node_modules\selenium-webdriver\lib\webdriver.js:<span class="hljs-number">195</span>:<span class="hljs-number">16</span><br>    at <span class="hljs-keyword">async</span> forEachKey (node_modules\selenium-webdriver\lib\webdriver.js:<span class="hljs-number">189</span>:<span class="hljs-number">9</span>)<br>    at <span class="hljs-keyword">async</span> convertKeys (node_modules\selenium-webdriver\lib\webdriver.js:<span class="hljs-number">194</span>:<span class="hljs-number">3</span>)<br>    at <span class="hljs-keyword">async</span> Driver.execute (node_modules\selenium-webdriver\lib\webdriver.js:<span class="hljs-number">743</span>:<span class="hljs-number">22</span>)<br>    at <span class="hljs-keyword">async</span> Context.&lt;anonymous&gt; (test\registroTest.js:<span class="hljs-number">116</span>:<span class="hljs-number">5</span>)</code></pre>
+          </div>
+          <div class="test-error-scr collapse">
+            <pre><code class="hljs small"><img src="./screenshots/1754706335994_prueba_de_registro_de_usuario_-_historia_de_usuario_registro_exitoso_con_datos_v_lidos.png"></code></pre>
+          </div>
+        </div>            <div id="50271a57-093e-415e-93cb-893cc33f2a6f" class="list-group-item test failed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              No permite registro con correo duplicado
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#50271a57-093e-415e-93cb-893cc33f2a6f > .test-logr.collapse">Log </button>
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#50271a57-093e-415e-93cb-893cc33f2a6f > .test-code.collapse">Code </button>
+              <span class="test-duration ">92 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+            <p class="test-error-message">NoSuchElementError: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[id=&quot;email&quot;]&quot;}
+          (Session info: chrome=138.0.7204.184)
+              <button class="btn btn-link btn-sm toggle-btn toggle-stack collapsed" data-toggle="collapse" data-target="#50271a57-093e-415e-93cb-893cc33f2a6f > .test-error-stack.collapse">Stack </button><button class="btn btn-link btn-sm toggle-btn toggle-stack collapsed" data-toggle="collapse" data-target="#50271a57-093e-415e-93cb-893cc33f2a6f > .test-error-scr.collapse">Screenshot </button>
+            </p>
+        <br>  <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">async</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{<br>    <span class="hljs-keyword">const</span> user = generateUniqueUser();<br>    <span class="hljs-comment">// Primer registro exitoso</span><br>    <span class="hljs-keyword">await</span> driver.get(<span class="hljs-string">"http://localhost:8000/signup/"</span>);<br>    <span class="hljs-keyword">await</span> driver.findElement(By.id(<span class="hljs-string">"username"</span>)).sendKeys(user.username);<br>    <span class="hljs-keyword">await</span> driver.findElement(By.id(<span class="hljs-string">"email"</span>)).sendKeys(user.email);<br>    <span class="hljs-keyword">await</span> driver.findElement(By.id(<span class="hljs-string">"password1"</span>)).sendKeys(user.password);<br>    <span class="hljs-keyword">await</span> driver.findElement(By.id(<span class="hljs-string">"password2"</span>)).sendKeys(user.password);<br>    <span class="hljs-keyword">await</span> driver.findElement(By.css(<span class="hljs-string">'form button[type="submit"]'</span>)).click();<br>    <span class="hljs-keyword">await</span> driver.wait(until.urlContains(<span class="hljs-string">"/signin"</span>), <span class="hljs-number">10000</span>);<br>    <span class="hljs-comment">// Intentar registrar otra vez con mismo correo</span><br>    <span class="hljs-keyword">await</span> driver.get(<span class="hljs-string">"http://localhost:8000/signup/"</span>);<br>    <span class="hljs-keyword">await</span> driver.findElement(By.id(<span class="hljs-string">"username"</span>)).sendKeys(user.username + <span class="hljs-string">"2"</span>);<br>    <span class="hljs-keyword">await</span> driver.findElement(By.id(<span class="hljs-string">"email"</span>)).sendKeys(user.email);<br>    <span class="hljs-keyword">await</span> driver.findElement(By.id(<span class="hljs-string">"password1"</span>)).sendKeys(user.password);<br>    <span class="hljs-keyword">await</span> driver.findElement(By.id(<span class="hljs-string">"password2"</span>)).sendKeys(user.password);<br>    <span class="hljs-keyword">await</span> driver.findElement(By.css(<span class="hljs-string">'form button[type="submit"]'</span>)).click();<br>    <span class="hljs-comment">// Verificar mensaje de error por correo duplicado</span><br>    <span class="hljs-keyword">const</span> error = <span class="hljs-keyword">await</span> driver.wait(until.elementLocated(By.css(<span class="hljs-string">".error, .alert-danger"</span>)), <span class="hljs-number">5000</span>);<br>    <span class="hljs-keyword">const</span> text = <span class="hljs-keyword">await</span> error.getText();<br>    expect(text.toLowerCase()).to.include(<span class="hljs-string">"correo"</span>);</code></pre>
+          </div>
+          <div class="test-error-stack collapse">
+            <pre><code class="hljs small">Difference between Expected(+) and Actual(-):
+        no such element: Unable to locate element: {"method":"css selector","selector":"*[id="email"]"}
+          (Session info: chrome=138.0.7204.184)
+        
+        Expected:
+        undefined
+        
+        Actual:
+        undefined
+        
+        Stack:
+        NoSuchElementError: no such element: Unable to locate element: {<span class="hljs-string">"method"</span>:<span class="hljs-string">"css selector"</span>,<span class="hljs-string">"selector"</span>:<span class="hljs-string">"*[id="</span>email<span class="hljs-string">"]"</span>}<br>  (Session info: chrome=<span class="hljs-number">138.0</span><span class="hljs-number">.7204</span><span class="hljs-number">.184</span>)<br>    at <span class="hljs-built_in">Object</span>.throwDecodedError (node_modules\selenium-webdriver\lib\error.js:<span class="hljs-number">523</span>:<span class="hljs-number">15</span>)<br>    at parseHttpResponse (node_modules\selenium-webdriver\lib\http.js:<span class="hljs-number">524</span>:<span class="hljs-number">13</span>)<br>    at Executor.execute (node_modules\selenium-webdriver\lib\http.js:<span class="hljs-number">456</span>:<span class="hljs-number">28</span>)<br>    at process.processTicksAndRejections (node:internal/process/task_queues:<span class="hljs-number">105</span>:<span class="hljs-number">5</span>)<br>    at <span class="hljs-keyword">async</span> Driver.execute (node_modules\selenium-webdriver\lib\webdriver.js:<span class="hljs-number">745</span>:<span class="hljs-number">17</span>)<br>    at <span class="hljs-keyword">async</span> toWireValue (node_modules\selenium-webdriver\lib\webdriver.js:<span class="hljs-number">149</span>:<span class="hljs-number">15</span>)<br>    at <span class="hljs-keyword">async</span> C:\Users\Dell Power\Downloads\SeleniumTesting\node_modules\selenium-webdriver\lib\webdriver.js:<span class="hljs-number">195</span>:<span class="hljs-number">16</span><br>    at <span class="hljs-keyword">async</span> forEachKey (node_modules\selenium-webdriver\lib\webdriver.js:<span class="hljs-number">189</span>:<span class="hljs-number">9</span>)<br>    at <span class="hljs-keyword">async</span> convertKeys (node_modules\selenium-webdriver\lib\webdriver.js:<span class="hljs-number">194</span>:<span class="hljs-number">3</span>)<br>    at <span class="hljs-keyword">async</span> Driver.execute (node_modules\selenium-webdriver\lib\webdriver.js:<span class="hljs-number">743</span>:<span class="hljs-number">22</span>)<br>    at <span class="hljs-keyword">async</span> Context.&lt;anonymous&gt; (test\registroTest.js:<span class="hljs-number">135</span>:<span class="hljs-number">5</span>)</code></pre>
+          </div>
+          <div class="test-error-scr collapse">
+            <pre><code class="hljs small"><img src="./screenshots/1754706336084_prueba_de_registro_de_usuario_-_historia_de_usuario_no_permite_registro_con_correo_duplicado.png"></code></pre>
+          </div>
+        </div>        </div>
+              </div>
+            </div>
+        
+        
+          </div>
+        </section>
+    </div>
+
+    <footer>
+      <div class="container">
+        <p>Report generated by <a href="http://adamgruber.github.io/mochawesome/" target="_blank">mochawesome</a>.<br>Designed and built by <a href="https://github.com/adamgruber" target="_blank">adamgruber</a>. &copy;2025.</p>
+      </div>
+    </footer>
+
+    <!-- Nav Menu -->
+    <div class="nav-menu-wrap">
+      <div class="menu-overlay close-menu"></div>
+      <nav class="menu">
+        <button class="nav-menu-btn close-menu"><i class="icon-failed"></i></button>
+        <ul class="list-unstyled main-menu">
+                <li class="nav-menu-item">
+                <a href="#b2b8ca38-7465-49be-8683-e87e030546e3" class="nav-menu-item-link has-failures">Prueba de Login</a>
+            </li>
+                <li class="nav-menu-item">
+                <a href="#3fd5eef7-a5fa-421a-8638-293263f25fd7" class="nav-menu-item-link has-failures">Prueba de Registro de Usuario - Historia de Usuario</a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/vendor.js"></script>
+    <script src="js/mochawesome.js"></script>
+  </body>
+</html>
